@@ -1,0 +1,17 @@
+.custom-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.custom-contact-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.custom-contact-break {
+    overflow-wrap: break-word;
+}
