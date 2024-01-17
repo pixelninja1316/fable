@@ -23,3 +23,11 @@
 .resena-position-fix {
     padding-top: 30px;
 }
+
+.centered-text {
+    text-align: center;
+}
+
+.text-match-parent {
+    text-align: -webkit-match-parent;
+}

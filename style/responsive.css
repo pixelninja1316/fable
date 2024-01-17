@@ -490,7 +490,7 @@ h2,h2 a,
 .template-main,
 .template-component-menu-default ul.sf-menu .sf-mega
 {
-	width:300px;
+	width:fit-content;
 }
 
 /******************************************************************************/
