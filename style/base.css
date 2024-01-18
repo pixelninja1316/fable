@@ -322,7 +322,7 @@ textarea,
 .template-main,
 .template-component-menu-default ul.sf-menu .sf-mega
 {
-	width:1050px;
+	max-width:1050px;
 	margin-left:auto;
 	margin-right:auto;
 }

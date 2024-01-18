@@ -191,10 +191,7 @@ jQuery(document).ready(function($)
 	
 	$('.template-form-line>label').inFieldLabels();
 	
-	/**************************************************************************/
-	
-	$('.template-component-contact-form>form').contactForm();
-	
+		
 	/**************************************************************************/
 	
 	$('.template-widget-category-style-2 select,.template-widget-archive-style-2 select').on('change',function() 
