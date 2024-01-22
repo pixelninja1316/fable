@@ -1,45 +1,11 @@
-.custom-layout {
+.centered-navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.custom-contact-layout {
+.centered-items {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.custom-contact-break {
-    overflow-wrap: break-word;
-}
-
-.style-our-clients {
-    text-align: center;
-}
-
-.resena-position-fix {
-    padding-top: 30px;
-}
-
-.centered-text {
-    text-align: center;
-}
-
-.text-match-parent {
-    text-align: -webkit-match-parent;
-}
-
-.parent-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.children-flex {
-    flex: 1 1 0px;
-    margin: 10px;
-    width: auto !important;
+    justify-content: space-evenly;
+    align-items: center;
 }
