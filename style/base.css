@@ -4274,10 +4274,12 @@ ul.template-widget-list
 					position:static;
 				}
 				
-				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-1 { background-image:url('../media/image/_sample/1050x770/1.jpg'); }
-				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-2 { background-image:url('../media/image/_sample/1050x770/2.jpg'); }
-				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-3 { background-image:url('../media/image/_sample/1050x770/3.jpg'); }
-				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-4 { background-image:url('../media/image/_sample/1050x770/4.jpg'); }
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-1 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-54-39_3.jpg');background-position: center;}
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-2 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-54-39_4.jpg');background-position: center; }
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-3 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-54-39_5.jpg');background-position: center; }
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-4 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-54-39_6.jpg');background-position: center; }
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-5 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-54-39.jpg');background-position: center; }
+				.template-component-class>ul>li>.template-layout-flex-50x50>div+div.template-component-class-background-6 { background-image:url('../media/image/fwd/PHOTO-2024-03-15-09-53-27.webp');background-position: center; }
 
 					.template-component-class>ul>li>.template-layout-flex-50x50>div+div>.template-component-button
 					{

@@ -8,3 +8,33 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.purple-color {
+    color: rgb(111, 106, 174);
+    -webkit-text-stroke: thin;
+}
+
+.template-component-team {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos con el mismo espacio entre ellos */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.team-member {
+    flex: 1; /* Cada miembro del equipo ocupará el mismo espacio */
+    margin: 0 10px; /* Espacio entre los miembros del equipo */
+    display: flex; /* Utilizamos flexbox para centrar verticalmente */
+    flex-direction: column; /* Alineamos los elementos en columna */
+    justify-content: center; /* Centramos verticalmente los elementos */
+    align-items: center; /* Centramos horizontalmente los elementos */
+    text-align: center; /* Alineamos el texto al centro */
+}
+
+.team-member img {
+    max-width: 100%; /* La imagen no superará el ancho del contenedor */
+    max-height: 200px; /* Establece la altura máxima de la imagen */
+    height: auto; /* Ajusta automáticamente la altura para mantener la relación de aspecto */
+    display: block; /* Esto ayuda a centrar la imagen horizontalmente */
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+}
+
