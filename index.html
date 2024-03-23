@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="style/base.css" />
     <link rel="stylesheet" type="text/css" href="style/responsive.css" />
     <link rel="stylesheet" type="text/css" href="style/retina.css" />
-    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="style/styles.css?v=1" />
 
     <script type="text/javascript" src="script/jquery.min.js"></script>
     <link rel="icon" href="media/image/favicon-16x16.png" type="image/x-icon">
@@ -45,7 +45,7 @@
 
                 <div class="template-header-top-logo">
                     <a href="/nuevo">
-                        <img src="media/image/fwd/Picture1.png" alt="" style="max-height: 123px;">
+                        <img src="media/image/logo.jpeg" alt="" style="max-height: 123px;margin-top:30px;">
                     </a>
                 </div>
 
@@ -739,7 +739,7 @@
                 <!-- Header and subheader -->
                 <div class="template-component-header-subheader">
                     <h2>VICTORATENSEÑA CONSULTORIO PSICOPEDAGÓGICO</h2>
-                    <h6>EL SITIO EDUCATIVO A LA VANGUARDIA DE LA PSICOPEDAGÍA LATINOAMERICANA</h6>
+                    <h6>EL SITIO EDUCATIVO A LA VANGUARDIA DE LA PSICOPEDAGOGÍA LATINOAMERICANA</h6>
                     <div></div>
                 </div>
 
@@ -872,11 +872,11 @@
                     </div>
 
                     <!-- Right column -->
-                    <div class="template-layout-column-right purple-color">
-                        <p>El centro cuenta con sede en Santiago de Chile y Guayaquil, Ecuador.
+                    <div class="template-layout-column-right">
+                        <h6>El centro cuenta con sede en Santiago de Chile y Guayaquil, Ecuador.
                             Disponemos de un grupo de profesionales especializados en las Necesidades Educativas
                             Especiales (NEE), con una amplia capacitación y experiencia tanto en el área corporativa
-                            como en la consulta profesional.</p>
+                            como en la consulta profesional.</h6>
                     </div>
 
                 </div>
@@ -1387,87 +1387,14 @@
                         </ul>
 
                     </div> <!-- Contact form -->
-                    <div class="template-component-contact-form">
-
-                        <form id="contact-form">
-
-                            <!-- Layout 50x50 -->
-                            <div class="template-layout-50x50 template-clear-fix">
-
-                                <!-- Left column -->
-                                <div class="template-layout-column-left">
-
-                                    <!-- Name -->
-                                    <div class="template-form-line template-state-block">
-                                        <label for="contact-form-name">Tu Nombre *</label>
-                                        <input type="text" name="contact-form-name" id="contact-form-name" required />
-                                    </div>
-
-                                    <!-- E-mail -->
-                                    <div class="template-form-line template-state-block">
-                                        <label for="contact-form-email">Tu Correo *</label>
-                                        <input type="text" name="contact-form-email" id="contact-form-email" required />
-                                    </div>
-
-                                    <!-- Subject -->
-                                    <div class="template-form-line template-state-block">
-                                        <label for="contact-form-subject">Tema</label>
-                                        <input type="text" name="contact-form-subject" id="contact-form-subject" />
-                                    </div>
-
-                                </div>
-
-                                <!-- Right column -->
-                                <div class="template-layout-column-right">
-                                    <div class="template-form-line template-state-block">
-                                        <label for="contact-form-message">Mensaje *</label>
-                                        <textarea rows="1" cols="1" name="contact-form-message"
-                                            id="contact-form-message" required></textarea>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="template-form-line template-form-line-submit template-align-center">
-
-                                <div class="template-state-block">
-
-                                    <!-- Submit button -->
-                                    <input class="template-component-button template-component-button-style-1"
-                                        type="submit" value="Enviar" name="contact-form-submit"
-                                        id="contact-form-submit" />
-
-                                </div>
-
-                            </div>
-
-                        </form>
-
-                        <script>
-                            document.getElementById("contact-form").addEventListener("submit", function (event) {
-                                event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
-
-                                // Recoger los datos del formulario
-                                var formData = new FormData(event.target);
-                                var name = formData.get("contact-form-name");
-                                var email = formData.get("contact-form-email");
-                                var subject = formData.get("contact-form-subject");
-                                var message = formData.get("contact-form-message");
-
-                                // Construir el correo electrónico
-                                var mailtoLink = "mailto:victoriatensena@victoriatensena.cl" + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent("Nombre: " + name + "\nCorreo: " + email + "\nMensaje: " + message);
-
-                                // Abrir el cliente de correo predeterminado con el correo electrónico prellenado
-                                window.location.href = mailtoLink;
-                            });
-                        </script>
-
-                    </div>
+                    
                 </div>
 
             </div>
 
         </div>
+        <a target="_blank" class="whatsapp-btn" rel="noopener noreferrer" href="https://wa.me/56986850244?text=Hola%20VictoriaTense%C3%B1a%20necesito%20informaci%C3%B3n%20sobre%20sus%20servicios"
+            ><img src="media/image/wsp.png"  /></a>
 
         <!-- Go to top button -->
         <a href="#go-to-top" class="template-component-go-to-top"></a>
